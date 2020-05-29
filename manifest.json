@@ -1,0 +1,21 @@
+{
+    "name":"My Youtube Downloader",
+    "description":"Download youtube videos in your choice quality",
+    "version":"0.1",
+    "author":"Sanyam Jain",
+    "manifest_version":2,
+    "web_accessible_resources":["src/app.js"],
+    "content_scripts":[
+        {
+            "matches":["https://www.youtube.com/watch*"],
+            "js":["src/loader.js"],
+            "css":["src/app.css"]
+        }
+    ],
+    "permissions":[
+        "downloads"
+    ],
+    "background":{
+        "src":["src/background.js"]
+    }
+}
