@@ -11,5 +11,5 @@ Its still under work. There are somethings which i need to resolve first.
 
 I am currently working on it ....
 ### Technology Use
-1:Js : scripting language.
+1: Js : scripting language.
 
